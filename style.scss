@@ -1,0 +1,33 @@
+/* 
+GLOBAL PARTIALS
+Global partials provide base HTML styling as well as variables and mixins to be used in the UI partials
+*/
+
+// BASE STYLES
+@import "src/global/reset";
+@import "src/global/base";
+@import "src/global/clearing";
+
+// VARIABLES & MIXINS
+@import "src/global/colors";
+@import "src/global/typography";
+@import "src/global/fx";
+
+// CONTENT STYLES
+@import "src/global/links";
+@import "src/global/media";
+@import "src/global/text";
+
+/* 
+UI PARTIALS
+UI partials provide the higher-level styles required for o2 to function and display properly
+*/
+
+@import "src/ui/layout";
+@import "src/ui/header";
+@import "src/ui/h1-h6";
+@import "src/ui/asides";
+@import "src/ui/menu-navigation";
+@import "src/ui/posts";
+@import "src/ui/comments";
+@import "src/ui/infinite-scroll.scss";
